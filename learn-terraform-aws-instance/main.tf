@@ -1,4 +1,13 @@
 terraform {
+
+  cloud {
+    organization = "ozyohthree"
+
+    workspaces {
+      name = "learn-tfc-aws"
+    }
+  }
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
@@ -14,10 +23,10 @@ provider "aws" {
 }
 
 resource "aws_instance" "app_server" {
-  ami           = "ami-024e6efaf93d85776"
+  ami           = "ami-02a89066c48741345"
   instance_type = "t2.micro"
 
   tags = {
-    Name = "ExampleAppServerInstance"
+    Name = var.instance_name
   }
 }

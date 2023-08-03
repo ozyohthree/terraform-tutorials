@@ -1,0 +1,16 @@
+[
+    {
+      "cloudName": "AzureCloud",
+      "homeTenantId": "ffa1db08-d129-474b-92fe-ae219e4319a3",
+      "id": "0cd39718-f3ad-4ab7-bc73-6b76f71f866a",
+      "isDefault": true,
+      "managedByTenants": [],
+      "name": "Azure for Students",
+      "state": "Enabled",
+      "tenantId": "ffa1db08-d129-474b-92fe-ae219e4319a3",
+      "user": {
+        "name": "agimei@student.cscc.edu",
+        "type": "user"
+      }
+    }
+  ]
